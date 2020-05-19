@@ -1,3 +1,8 @@
+#项目说明（后面放入readme.md文档中）
+#1、登录认证（获取token）地址 host/token get方式（方便测试，上线换post）
+#2、新增用户需要用户管理模块（niblet暂无），测试用admin（123456）即可
+#3、数据库在corn项目的db目录中
+#4、普通未开放权限的接口需要在请求的请求头中添加 Authorization，值为token
 server:
    port: 9000
 
@@ -19,7 +24,7 @@ spring:
 # ~ mybatis
 # =========================================================== 
 mybatis-plus:
-   mapper-locations:
+   mapper-locations:  
      - classpath:mapper/*.xml
    type-aliases-package: org.weicong.entity
    global-config:

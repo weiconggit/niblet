@@ -28,7 +28,7 @@ import org.weicong.common.util.StringUtil;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @description
+ * @description 自定义过滤器，权限相关的主要逻辑处理（权限校验，用户信息封装到SpringSecurityContext等）
  * @author weicong
  * @date 2020年1月14日
  * @version 1.0
