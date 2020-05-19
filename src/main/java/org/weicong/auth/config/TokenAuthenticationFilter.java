@@ -11,7 +11,7 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 import org.springframework.util.Assert;
 
 /**
- * @description 
+ * @description 登录认证地址 host/token post方式
  * @author weicong
  * @date 2020年1月14日
  * @version 1.0
